@@ -6,7 +6,11 @@ import java.awt.event.KeyListener;
 import javax.media.opengl.GLCanvas;
 
 //import static org.yourorghere.Practica1.proyeccion;
-
+/**
+ *
+ * @author Eddy Sanchez
+ * Escuchador de eventos
+ */
 
 public class JoglKeyListener implements KeyListener {
     

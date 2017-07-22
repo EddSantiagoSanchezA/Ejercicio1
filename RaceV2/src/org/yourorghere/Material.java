@@ -10,6 +10,7 @@ import javax.media.opengl.GL;
 /**
  *
  * @author Eddy Sanchez
+ * Generador de Materiales
  */
 public class Material {
     private float[] rgbaa;

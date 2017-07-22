@@ -5,7 +5,11 @@ import com.sun.opengl.util.GLUT;
 import javax.media.opengl.GL;
 import javax.media.opengl.glu.GLU;
 import javax.media.opengl.glu.GLUquadric;
-
+/**
+ *
+ * @author Eddy Sanchez
+ * Generador de Detalles
+ */
 public class Poste {
     //atributos
     public float x;

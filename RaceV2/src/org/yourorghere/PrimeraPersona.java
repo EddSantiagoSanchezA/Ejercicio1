@@ -3,7 +3,11 @@ package org.yourorghere;
 
 import java.io.IOException;
 import javax.media.opengl.GL;
-
+/**
+ *
+ * @author Eddy Sanchez
+ * Generador de Naveacion
+ */
 
 public class PrimeraPersona extends Personaje{
     

@@ -13,6 +13,7 @@ import javax.media.opengl.GL;
 /**
  *
  * @author Eddy Sanchez
+ * Generador de Edificios
  */
 public class Building {
     public float x;

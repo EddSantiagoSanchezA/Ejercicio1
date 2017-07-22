@@ -4,7 +4,11 @@ package org.yourorghere;
 import java.io.IOException;
 import javax.media.opengl.GL;
 
-
+/**
+ *
+ * @author Eddy Sanchez
+ * Generador de Personajes
+ */
 public class Personaje {
     public float x;
     public float y;

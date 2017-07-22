@@ -4,9 +4,14 @@ import com.sun.opengl.util.GLUT;
 import java.io.IOException;
 import java.util.ArrayList;
 import javax.media.opengl.GL;
+/**
+ *
+ * @author Eddy Sanchez
+ * Generador de Cercas
+ */
 
 public class Cerca {
-    //atributos
+    //atributos de la Cerca
     public float x;
     public float y;
     public float z;

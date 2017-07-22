@@ -21,7 +21,11 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.media.opengl.GLException;
 
-
+/**
+ *
+ * @author Eddy Sanchez
+ * Clase Principal
+ */
 public class RaceV2 implements GLEventListener {
     
     public static Cubo piso,cielo, partida,cielo1,cielo2,cielo3;
@@ -44,7 +48,7 @@ public class RaceV2 implements GLEventListener {
     public static boolean velocidad=false,camara=false;
     
     public static void main(String[] args) {
-        Frame frame = new Frame("Practica 1");
+        Frame frame = new Frame("RaceV2");
         GLCanvas canvas = new GLCanvas();
 
         canvas.addGLEventListener(new RaceV2());

@@ -6,7 +6,7 @@ import javax.media.opengl.GL;
 import javax.media.opengl.glu.GLU;
 import javax.media.opengl.glu.GLUquadric;
 import org.yourorghere.Material;
-
+//clase Arbol
 
 public class Arbol {
     //atributos
@@ -40,15 +40,16 @@ public class Arbol {
 //        
     }
     public void DrawArbol(){
-        
+        //aplicacion de Transormaciones de OpenGL
         gl.glPushMatrix();
         
         gl.glTranslatef(x, y, z);
         gl.glRotatef(90, 1,0 , 0);
         
+        //Llamamos a los metodos de texturizado
         RaceV2.textura.textura1.enable();
         RaceV2.textura.textura1.bind();
-        
+        //Graficamos las formas deseadas
         cilindro=glu.gluNewQuadric();
         glu.gluQuadricDrawStyle(cilindro, GLU.GLU_FILL);
         glu.gluQuadricTexture(cilindro, true);

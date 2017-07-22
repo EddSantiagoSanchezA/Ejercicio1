@@ -9,7 +9,8 @@ import javax.media.opengl.GL;
 
 /**
  *
- * @author fing.labcom
+ * @author Eddy Sanchez
+ * Generador de Iluminacion
  */
 public class FuenteLuz {
     public static int luz;

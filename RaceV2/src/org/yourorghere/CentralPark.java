@@ -7,7 +7,11 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.media.opengl.GL;
 
-
+/**
+ *
+ * @author Eddy Sanchez
+ * Generador de Detalles, en este caso de monumentos
+ */
 public class CentralPark {
     public float x;
     public float y;

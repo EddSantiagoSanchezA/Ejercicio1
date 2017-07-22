@@ -6,7 +6,7 @@ import java.util.Vector;
 import javax.media.opengl.GL;
 import javax.swing.JOptionPane;
 
-
+//Manejo de primera persona del auto de carreras
 
 public class AutoFperson extends Auto{
     public float angulo;
@@ -14,6 +14,7 @@ public class AutoFperson extends Auto{
         super (x1, y1,z1, w1, h1,d1,speed1, caminox1,caminoz1,gl1,r1,g1,b1, texta1, textb1);
         angulo=angulo1;
     }
+    //Funciones de movimiento para la navegacion del auto
     
     @Override
     public void fdelan(){

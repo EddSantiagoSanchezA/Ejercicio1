@@ -9,6 +9,7 @@ import java.io.IOException;
 /**
  *
  * @author Eddy Sanchez
+ * Generador de Texturas y materiales
  */
 public class Texturas {
     public Texture textura,textura1,textura2,textura3,textura4,textura5,textura6;

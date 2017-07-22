@@ -4,7 +4,11 @@ import com.sun.opengl.util.GLUT;
 import javax.media.opengl.GL;
 import javax.media.opengl.glu.GLU;
 import javax.media.opengl.glu.GLUquadric;
-
+/**
+ *
+ * @author Eddy Sanchez
+ * Generador de Plaza
+ */
 public class Plaza {
     //atributos
     public float x;

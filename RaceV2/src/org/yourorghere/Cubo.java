@@ -6,7 +6,11 @@ import com.sun.opengl.util.texture.TextureIO;
 import java.io.File;
 import java.io.IOException;
 import javax.media.opengl.GL;
-
+/**
+ *
+ * @author Eddy Sanchez
+ * Generador de Cubos basicos
+ */
 public class Cubo {
     //atributos
     public float x;

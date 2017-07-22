@@ -6,7 +6,11 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.media.opengl.GL;
-
+/**
+ *
+ * @author Eddy Sanchez
+ * Generador de Casas
+ */
 
 public class ConjuntoCasas {
     

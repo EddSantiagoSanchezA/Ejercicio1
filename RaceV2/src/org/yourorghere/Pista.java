@@ -6,7 +6,11 @@ import java.io.IOException;
 import javax.media.opengl.GL;
 import javax.media.opengl.glu.GLU;
 import javax.media.opengl.glu.GLUquadric;
-
+/**
+ *
+ * @author Eddy Sanchez
+ * Generador de Pista de Carreras
+ */
 
 public class Pista {
     public float x;

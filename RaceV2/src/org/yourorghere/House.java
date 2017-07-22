@@ -12,6 +12,7 @@ import javax.media.opengl.GL;
 /**
  *
  * @author Eddy Sanchez
+ * Generador de Casas Individuales
  */
 public class House {
     //atributos
