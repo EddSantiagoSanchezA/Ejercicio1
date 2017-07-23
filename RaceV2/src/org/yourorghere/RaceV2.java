@@ -82,7 +82,7 @@ public class RaceV2 implements GLEventListener {
         canvas.addGLEventListener(new RaceV2());
         JoglKeyListener klistener=new JoglKeyListener(canvas);
         canvas.addKeyListener(klistener);
-        JOptionPane.showMessageDialog(null,"RaceV2 Game");
+        
     }
 
     public void init(GLAutoDrawable drawable) {
