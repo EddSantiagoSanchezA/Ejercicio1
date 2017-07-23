@@ -20,6 +20,7 @@ import java.util.Vector;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.media.opengl.GLException;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -48,6 +49,8 @@ public class RaceV2 implements GLEventListener {
     public static boolean velocidad=false,camara=false;
     
     public static void main(String[] args) {
+        
+        
         Frame frame = new Frame("RaceV2");
         GLCanvas canvas = new GLCanvas();
 
@@ -79,6 +82,7 @@ public class RaceV2 implements GLEventListener {
         canvas.addGLEventListener(new RaceV2());
         JoglKeyListener klistener=new JoglKeyListener(canvas);
         canvas.addKeyListener(klistener);
+        JOptionPane.showMessageDialog(null,"RaceV2 Game");
     }
 
     public void init(GLAutoDrawable drawable) {
