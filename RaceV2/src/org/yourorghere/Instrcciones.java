@@ -27,18 +27,36 @@ public class Instrcciones extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jLabel4 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMaximumSize(new java.awt.Dimension(640, 460));
+        setMinimumSize(new java.awt.Dimension(640, 460));
+        setPreferredSize(new java.awt.Dimension(640, 460));
+        getContentPane().setLayout(null);
+
+        jLabel4.setFont(new java.awt.Font("Aharoni", 0, 48)); // NOI18N
+        jLabel4.setText("Instrcciones");
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(210, 30, 270, 49);
+
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\EddySantiago\\Documents\\NetBeansProjects\\Ejercicio1\\RaceV2\\movimiento.png")); // NOI18N
+        jLabel2.setText("jLabel2");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(70, 250, 150, 93);
+
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\EddySantiago\\Documents\\NetBeansProjects\\Ejercicio1\\RaceV2\\space.png")); // NOI18N
+        jLabel3.setText("jLabel3");
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(270, 290, 150, 50);
+
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\EddySantiago\\Documents\\NetBeansProjects\\Ejercicio1\\RaceV2\\pista.jpg")); // NOI18N
+        jLabel1.setText("jLabel1");
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(-40, -90, 998, 540);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -79,5 +97,9 @@ public class Instrcciones extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     // End of variables declaration//GEN-END:variables
 }
