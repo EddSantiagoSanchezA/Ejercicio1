@@ -33,12 +33,17 @@ public class Inicio extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(640, 480));
-        setMinimumSize(new java.awt.Dimension(640, 480));
-        setPreferredSize(new java.awt.Dimension(640, 480));
+        setMaximumSize(new java.awt.Dimension(640, 460));
+        setMinimumSize(new java.awt.Dimension(640, 460));
+        setPreferredSize(new java.awt.Dimension(640, 460));
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -86,11 +91,40 @@ public class Inicio extends javax.swing.JFrame {
         jLabel3.setPreferredSize(new java.awt.Dimension(213, 214));
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 70, 213, 214));
 
+        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\EddySantiago\\Documents\\NetBeansProjects\\Ejercicio1\\RaceV2\\logo-min.png")); // NOI18N
+        jLabel5.setText("jLabel5");
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 150, 140));
+
+        jLabel6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel6.setText("Prototipos Avanzados");
+        jLabel6.setToolTipText("");
+        jLabel6.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 390, -1, -1));
+
+        jLabel7.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel7.setText("2017-2017");
+        jLabel7.setToolTipText("");
+        jLabel7.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 410, -1, -1));
+
+        jLabel8.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel8.setText("Sanchez Aguiar Eddy Santiago");
+        jLabel8.setToolTipText("");
+        jLabel8.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 370, -1, -1));
+
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\EddySantiago\\Documents\\NetBeansProjects\\Ejercicio1\\RaceV2\\race.jpg")); // NOI18N
         jLabel1.setMaximumSize(new java.awt.Dimension(640, 480));
         jLabel1.setMinimumSize(new java.awt.Dimension(640, 480));
         jLabel1.setPreferredSize(new java.awt.Dimension(640, 480));
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -90, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -90, -1, 480));
+
+        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\EddySantiago\\Documents\\NetBeansProjects\\Ejercicio1\\RaceV2\\pista.jpg")); // NOI18N
+        jLabel4.setText("jLabel4");
+        jLabel4.setMaximumSize(new java.awt.Dimension(620, 110));
+        jLabel4.setMinimumSize(new java.awt.Dimension(620, 110));
+        jLabel4.setPreferredSize(new java.awt.Dimension(620, 110));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(-210, -140, 880, 650));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -154,5 +188,10 @@ public class Inicio extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     // End of variables declaration//GEN-END:variables
 }

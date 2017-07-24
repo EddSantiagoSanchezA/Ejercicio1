@@ -239,7 +239,7 @@ public class RaceV2 implements GLEventListener {
         } catch (IOException ex) {
             Logger.getLogger(RaceV2.class.getName()).log(Level.SEVERE, null, ex);
         }
-        edificio = new ArrayList<Building>();
+        /*edificio = new ArrayList<Building>();
         for(int i=1;i<8;i++){
             try { 
                 edificio.add(new Building(40f ,0f,-50f+(i*12),1f,1f,1f, gl, -90,1));
@@ -247,7 +247,7 @@ public class RaceV2 implements GLEventListener {
             } catch (IOException ex) {
                 Logger.getLogger(RaceV2.class.getName()).log(Level.SEVERE, null, ex);
             }
-        }
+        }*/
         try {
             piso=new Cubo(0f ,-2f,1f,90f,0.125f,85f, 0,gl, 1f,0.12f,0.25f,4f,1f);
             partida=new Cubo(34, -1.5f, -20, 7, 0.25f,2, 0, gl, 0.23f, 0.13f, 0.12f, 4, 4);
@@ -340,20 +340,20 @@ public class RaceV2 implements GLEventListener {
             e.DrawAuto();
         }
                 car.DrawAuto();
-        for(Building e:edificio)
+        /*for(Building e:edificio)
         {
             e.DrawBuilding();
-        }
-        for(Building e:edificio)
+        }*/
+        /*for(Building e:edificio)
         {
             gl.glPopMatrix();
             gl.glPushMatrix();
             gl.glRotatef(90, 0, 1, 0);
             e.DrawBuilding();
             gl.glPopMatrix();
-        }
+        }*/
         
-        gl.glColor3f(1,1,1) ;
+        /*gl.glColor3f(1,1,1) ;
         gl.glLineWidth(2.0f);
         gl.glBegin(GL.GL_LINE_STRIP);
         gl.glVertex3f (33,1,0);
@@ -373,7 +373,7 @@ public class RaceV2 implements GLEventListener {
         gl.glVertex3f (25,1,-30);
         gl.glVertex3f (33,1,-20);
         gl.glVertex3f (33,1,-0);
-        gl.glEnd();
+        gl.glEnd();*/
 
         
         gl.glPopMatrix();
