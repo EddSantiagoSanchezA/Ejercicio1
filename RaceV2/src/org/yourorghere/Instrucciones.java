@@ -54,7 +54,7 @@ public class Instrucciones extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(200, 50, 280, 49);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\EddySantiago\\Documents\\NetBeansProjects\\Ejercicio1\\RaceV2\\movimiento.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/yourorghere/Imagenes/movimiento.png"))); // NOI18N
         jLabel2.setText("jLabel2");
         getContentPane().add(jLabel2);
         jLabel2.setBounds(160, 130, 150, 93);
@@ -98,7 +98,7 @@ public class Instrucciones extends javax.swing.JFrame {
         getContentPane().add(jLabel13);
         jLabel13.setBounds(210, 10, 270, 49);
 
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Users\\EddySantiago\\Documents\\NetBeansProjects\\Ejercicio1\\RaceV2\\space.png")); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/yourorghere/Imagenes/space.png"))); // NOI18N
         jLabel9.setText("jLabel3");
         getContentPane().add(jLabel9);
         jLabel9.setBounds(160, 240, 150, 50);
@@ -131,7 +131,7 @@ public class Instrucciones extends javax.swing.JFrame {
         getContentPane().add(jLabel5);
         jLabel5.setBounds(320, 110, 220, 250);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\EddySantiago\\Documents\\NetBeansProjects\\Ejercicio1\\RaceV2\\pista.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/yourorghere/Imagenes/pista.jpg"))); // NOI18N
         jLabel1.setText("jLabel1");
         getContentPane().add(jLabel1);
         jLabel1.setBounds(-40, -90, 998, 540);

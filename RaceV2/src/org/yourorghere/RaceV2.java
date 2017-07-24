@@ -95,10 +95,7 @@ public class RaceV2 implements GLEventListener {
         gl.glEnable(GL.GL_LIGHT0);
         gl.glEnable(GL.GL_TEXTURE_2D);
         
-//        gl.glTexParameteri(GL.GL_TEXTURE_2D, GL.GL_TEXTURE_MIN_FILTER,GL.GL_NEAREST);
-//        gl.glTexParameteri(GL.GL_TEXTURE_2D, GL.GL_TEXTURE_MAG_FILTER,GL.GL_LINEAR);
 
-        
         try {
             textura=new Texturas("Fondo.jpg","text1.jpg","text2.jpg","text3.jpg","text4.jpg","text5.jpg","text6.jpg");
             

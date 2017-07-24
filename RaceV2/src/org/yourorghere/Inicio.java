@@ -96,7 +96,7 @@ public class Inicio extends javax.swing.JFrame {
         jLabel3.setPreferredSize(new java.awt.Dimension(213, 214));
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 70, 213, 214));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\EddySantiago\\Documents\\NetBeansProjects\\Ejercicio1\\RaceV2\\logo-min.png")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/yourorghere/Imagenes/logo-min.png"))); // NOI18N
         jLabel5.setText("jLabel5");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 150, 140));
 
@@ -118,13 +118,13 @@ public class Inicio extends javax.swing.JFrame {
         jLabel8.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 370, -1, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\EddySantiago\\Documents\\NetBeansProjects\\Ejercicio1\\RaceV2\\race.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/yourorghere/Imagenes/race.jpg"))); // NOI18N
         jLabel1.setMaximumSize(new java.awt.Dimension(640, 480));
         jLabel1.setMinimumSize(new java.awt.Dimension(640, 480));
         jLabel1.setPreferredSize(new java.awt.Dimension(640, 480));
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -90, -1, 480));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\EddySantiago\\Documents\\NetBeansProjects\\Ejercicio1\\RaceV2\\pista.jpg")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/yourorghere/Imagenes/pista.jpg"))); // NOI18N
         jLabel4.setText("jLabel4");
         jLabel4.setMaximumSize(new java.awt.Dimension(620, 110));
         jLabel4.setMinimumSize(new java.awt.Dimension(620, 110));

@@ -138,7 +138,7 @@
     <Component class="javax.swing.JLabel" name="jLabel5">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\EddySantiago\Documents\NetBeansProjects\Ejercicio1\RaceV2\logo-min.png"/>
+          <Image iconType="3" name="/org/yourorghere/Imagenes/logo-min.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="jLabel5"/>
       </Properties>
@@ -196,7 +196,7 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\EddySantiago\Documents\NetBeansProjects\Ejercicio1\RaceV2\race.jpg"/>
+          <Image iconType="3" name="/org/yourorghere/Imagenes/race.jpg"/>
         </Property>
         <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
           <Dimension value="[640, 480]"/>
@@ -217,7 +217,7 @@
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\EddySantiago\Documents\NetBeansProjects\Ejercicio1\RaceV2\pista.jpg"/>
+          <Image iconType="3" name="/org/yourorghere/Imagenes/pista.jpg"/>
         </Property>
         <Property name="text" type="java.lang.String" value="jLabel4"/>
         <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
