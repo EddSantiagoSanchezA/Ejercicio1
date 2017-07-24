@@ -21,8 +21,6 @@ public class Texturas {
         textura4= TextureIO.newTexture(new File(file5),true);
         textura5= TextureIO.newTexture(new File(file6),true);
         textura6= TextureIO.newTexture(new File(file7),true);
-//        textura1.disable();
-
     }
     public Texture gettextura(){
 		return textura;

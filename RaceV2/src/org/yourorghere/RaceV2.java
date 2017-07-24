@@ -239,15 +239,7 @@ public class RaceV2 implements GLEventListener {
         } catch (IOException ex) {
             Logger.getLogger(RaceV2.class.getName()).log(Level.SEVERE, null, ex);
         }
-        /*edificio = new ArrayList<Building>();
-        for(int i=1;i<8;i++){
-            try { 
-                edificio.add(new Building(40f ,0f,-50f+(i*12),1f,1f,1f, gl, -90,1));
-                edificio.add(new Building(-43f ,0f,-50f+(i*12),1f,1f,1f, gl, 90,1));
-            } catch (IOException ex) {
-                Logger.getLogger(RaceV2.class.getName()).log(Level.SEVERE, null, ex);
-            }
-        }*/
+
         try {
             piso=new Cubo(0f ,-2f,1f,90f,0.125f,85f, 0,gl, 1f,0.12f,0.25f,4f,1f);
             partida=new Cubo(34, -1.5f, -20, 7, 0.25f,2, 0, gl, 0.23f, 0.13f, 0.12f, 4, 4);
