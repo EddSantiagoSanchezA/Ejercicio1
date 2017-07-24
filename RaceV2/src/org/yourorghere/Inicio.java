@@ -66,6 +66,11 @@ public class Inicio extends javax.swing.JFrame {
         jButton2.setText("Instrucciones");
         jButton2.setOpaque(false);
         jButton2.setPreferredSize(new java.awt.Dimension(125, 50));
+        jButton2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton2MouseClicked(evt);
+            }
+        });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 150, 157, -1));
 
         jButton3.setFont(new java.awt.Font("Comic Sans MS", 3, 18)); // NOI18N
@@ -145,6 +150,13 @@ public class Inicio extends javax.swing.JFrame {
         this.dispose();
         
     }//GEN-LAST:event_jButton1MouseClicked
+
+    private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseClicked
+        // TODO add your handling code here:
+        Instrucciones instruciones = new Instrucciones();
+        instruciones.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton2MouseClicked
 
     /**
      * @param args the command line arguments
