@@ -260,9 +260,9 @@ public class Auto {
         
      if(indice!=16){
          if(x<caminox.elementAt(indice)){
-            x=x+speed;
+            x=x+speed*2;
         }else{
-            x=x-speed;
+            x=x-speed*2;
         }
         
         if(z<caminoz.elementAt(indice)){
@@ -282,18 +282,42 @@ public class Auto {
             angulo=45;
         }
         if(indice==4){
-            angulo=90;
+            angulo=180;
         }
         if(indice==5){
-            angulo=45;
+            angulo=-45;
         }
         if(indice==6){
+            angulo=-135;
+        }
+        if(indice==7){
+            angulo=-180;
+        }
+        if(indice==8){
+            angulo=45;
+        }
+        if(indice==9){
+            angulo=135;
+        }
+        if(indice==10){
+            angulo=180;
+        }
+        if(indice==11){
+            angulo=-45;
+        }
+        if(indice==13){
+            angulo=-135;
+        }
+        if(indice==14){
+            angulo=-180;
+        }
+        if(indice==15){
             angulo=-45;
         }
         
      }else {
          indice=1;
-         JOptionPane.showMessageDialog(null, "Game Over¡¡");
+         JOptionPane.showMessageDialog(null, "Game Over¡¡ Ultimo Lugar");
             System.exit(0);
      }   
         

@@ -353,7 +353,7 @@ public class RaceV2 implements GLEventListener {
             gl.glPopMatrix();
         }*/
         
-        /*gl.glColor3f(1,1,1) ;
+        gl.glColor3f(1,1,1) ;
         gl.glLineWidth(2.0f);
         gl.glBegin(GL.GL_LINE_STRIP);
         gl.glVertex3f (33,1,0);
@@ -373,7 +373,7 @@ public class RaceV2 implements GLEventListener {
         gl.glVertex3f (25,1,-30);
         gl.glVertex3f (33,1,-20);
         gl.glVertex3f (33,1,-0);
-        gl.glEnd();*/
+        gl.glEnd();
 
         
         gl.glPopMatrix();
