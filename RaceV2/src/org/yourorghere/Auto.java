@@ -7,8 +7,9 @@ import javax.media.opengl.GL;
 import javax.media.opengl.glu.GLU;
 import javax.media.opengl.glu.GLUquadric;
 import javax.swing.JOptionPane;
-//Clase Auto para generar un automovil
-    
+/*
+  *Clase Auto para generar un automovil
+*/
 public class Auto {
     public float x;
     public float y;
