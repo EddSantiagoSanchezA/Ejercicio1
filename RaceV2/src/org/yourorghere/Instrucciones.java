@@ -54,12 +54,12 @@ public class Instrucciones extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(200, 50, 280, 49);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/yourorghere/Imagenes/movimiento.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/yourorghere/imagen/movimiento.png"))); // NOI18N
         jLabel2.setText("jLabel2");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(160, 130, 150, 93);
+        jLabel2.setBounds(160, 130, 150, 90);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/yourorghere/Imagenes/teclac.jpg"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/yourorghere/imagen/teclac.jpg"))); // NOI18N
         getContentPane().add(jLabel3);
         jLabel3.setBounds(200, 300, 75, 60);
 
@@ -94,11 +94,12 @@ public class Instrucciones extends javax.swing.JFrame {
         jLabel12.setBounds(330, 120, 210, 30);
 
         jLabel13.setFont(new java.awt.Font("Aharoni", 0, 48)); // NOI18N
-        jLabel13.setText("Instrcciones");
+        jLabel13.setText("Instrucciones");
+        jLabel13.setToolTipText("");
         getContentPane().add(jLabel13);
-        jLabel13.setBounds(210, 10, 270, 49);
+        jLabel13.setBounds(180, 10, 300, 49);
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/yourorghere/Imagenes/space.png"))); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/yourorghere/imagen/space.png"))); // NOI18N
         jLabel9.setText("jLabel3");
         getContentPane().add(jLabel9);
         jLabel9.setBounds(160, 240, 150, 50);
@@ -131,7 +132,7 @@ public class Instrucciones extends javax.swing.JFrame {
         getContentPane().add(jLabel5);
         jLabel5.setBounds(320, 110, 220, 250);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/yourorghere/Imagenes/pista.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/yourorghere/imagen/pista.jpg"))); // NOI18N
         jLabel1.setText("jLabel1");
         getContentPane().add(jLabel1);
         jLabel1.setBounds(-40, -90, 998, 540);
