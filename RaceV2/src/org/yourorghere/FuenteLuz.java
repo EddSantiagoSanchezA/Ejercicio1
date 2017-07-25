@@ -8,9 +8,21 @@ package org.yourorghere;
 import javax.media.opengl.GL;
 
 /**
- *
+ * 
  * @author Eddy Sanchez
- * Generador de Iluminacion
+ * 
+ */
+/**
+ * 
+ * @brief Generador de iluminacion
+ * @brief Posicion
+ * @param x Posicion x
+ * @param y Posicion y
+ * @param z Posicion z
+ * @brief Atributos
+ * @param w Altura
+ * @param h Ancho
+ * @param d Profundidad
  */
 public class FuenteLuz {
     public static int luz;

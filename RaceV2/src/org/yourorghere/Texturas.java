@@ -13,6 +13,10 @@ import java.io.IOException;
  * @author Eddy Sanchez
  * Generador de Texturas y materiales
  */
+/**
+ * 
+ * @brief Clase manejo de texturas
+ */
 public class Texturas {
     public Texture textura,textura1,textura2,textura3,textura4,textura5,textura6;
     public Texturas (String file1,String file2,String file3,String file4,String file5,String file6,String file7) throws IOException{

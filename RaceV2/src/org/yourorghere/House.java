@@ -10,9 +10,21 @@ import java.io.IOException;
 import javax.media.opengl.GL;
 
 /**
- *
+ * 
  * @author Eddy Sanchez
- * Generador de Casas Individuales
+ * 
+ */
+/**
+ * 
+ * @brief Generador de casas
+ * @brief Posicion
+ * @param x Posicion x
+ * @param y Posicion y
+ * @param z Posicion z
+ * @brief Atributos
+ * @param w Altura
+ * @param h Ancho
+ * @param d Profundidad
  */
 public class House {
     //atributos

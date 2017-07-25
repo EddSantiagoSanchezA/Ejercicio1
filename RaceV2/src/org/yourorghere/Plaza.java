@@ -9,6 +9,7 @@ import javax.media.opengl.glu.GLUquadric;
  * @author Eddy Sanchez
  * Generador de Plaza
  */
+
 public class Plaza {
     //atributos
     public float x;

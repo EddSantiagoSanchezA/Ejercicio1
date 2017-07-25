@@ -11,6 +11,10 @@ import javax.media.opengl.GLCanvas;
  * @author Eddy Sanchez
  * Escuchador de eventos
  */
+/**
+     * 
+     * @brief Clase manejadora de eventos de escuhcha de teclado
+     */
 
 public class JoglKeyListener implements KeyListener {
     
@@ -25,7 +29,10 @@ public class JoglKeyListener implements KeyListener {
     }
     public void keyTyped(KeyEvent e)
     {
-        
+        /**
+     * 
+     * @brief Teclas de Accion y opciones
+     */
         e.getKeyChar();
         if(keyBuffer['w'])
         {
@@ -76,6 +83,11 @@ public class JoglKeyListener implements KeyListener {
         }    
                
     }
+    
+    /**
+     * 
+     * @brief Escuchador de eventos de teclado
+     */
     public void keyPressed(KeyEvent e)
     {
         keyBuffer[e.getKeyChar()]=true;

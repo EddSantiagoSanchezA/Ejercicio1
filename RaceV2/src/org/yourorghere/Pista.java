@@ -11,6 +11,18 @@ import javax.media.opengl.glu.GLUquadric;
  * @author Eddy Sanchez
  * Generador de Pista de Carreras
  */
+    /**
+     * 
+ * @brief Generador de Pista de Carreras
+ * @brief Posicion
+ * @param x Posicion x
+ * @param y Posicion y
+ * @param z Posicion z
+ * @brief Atributos
+ * @param w Altura
+ * @param h Ancho
+ * @param d Profundidad
+ */
 
 public class Pista {
     public float x;

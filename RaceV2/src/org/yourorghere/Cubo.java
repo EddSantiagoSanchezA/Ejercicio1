@@ -7,9 +7,21 @@ import java.io.File;
 import java.io.IOException;
 import javax.media.opengl.GL;
 /**
- *
+ * 
  * @author Eddy Sanchez
- * Generador de Cubos basicos
+ * 
+ */
+/**
+ * 
+ * @brief Generador Cubos clase basica para los demas objetos
+ * @brief Posicion
+ * @param x Posicion x
+ * @param y Posicion y
+ * @param z Posicion z
+ * @brief Atributos
+ * @param w Altura
+ * @param h Ancho
+ * @param d Profundidad
  */
 public class Cubo {
     //atributos

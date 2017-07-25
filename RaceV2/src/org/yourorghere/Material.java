@@ -12,6 +12,10 @@ import javax.media.opengl.GL;
  * @author Eddy Sanchez
  * Generador de Materiales
  */
+/**
+     * 
+     * @brief Clase manejadora de colores y materiales
+     */
 public class Material {
     private float[] rgbaa;
     private float[] rgbad;
@@ -27,15 +31,18 @@ public class Material {
         sh = sh1;
         gl=gl1;
     }
+    /**
+     * 
+     * @brief Definicion de materiales con sus atributos 
+     */
     public void DrawMaterial(){
         float [] ambient={rgbaa[0],rgbaa[1],rgbaa[2],1};
         float [] difuse={rgbad[0],rgbad[1],rgbad[2],1};//ultimo valor = transparencia
         float [] especular={rgbas[0],rgbas[1],rgbas[2],1};
-//        
-//        float [] ambient={0.5f,0.5f,0.5f,1};
-//        float [] difuse={1f,0.3f,0f,1};//ultimo valor = transparencia
-//        float [] especular={0.2f,0.3f,0,1};
-        //Front/Back/Front and Back
+/**
+     * 
+     * @brief Prpiedades del material
+     */
         gl.glMaterialfv(GL.GL_FRONT, GL.GL_AMBIENT, ambient,0);
         gl.glMaterialfv(GL.GL_FRONT, GL.GL_DIFFUSE, difuse,0);
         gl.glMaterialfv(GL.GL_FRONT, GL.GL_SPECULAR, especular,0);

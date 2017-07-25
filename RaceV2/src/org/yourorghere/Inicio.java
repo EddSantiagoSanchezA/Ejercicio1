@@ -12,7 +12,7 @@ package org.yourorghere;
 public class Inicio extends javax.swing.JFrame {
 
     /**
-     * Creates new form Inicio
+     * @brief Creates new form Inicio
      */
     public static String[] args;
     public Inicio() {
@@ -142,7 +142,9 @@ public class Inicio extends javax.swing.JFrame {
         // TODO add your handling code here:
         this.dispose();
     }//GEN-LAST:event_jButton3MouseClicked
-
+/**
+     * @brief Cambio o navegacion de pantallas
+     */
     private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
         // TODO add your handling code here:
         RaceV2 racev2 = new RaceV2();
@@ -192,7 +194,9 @@ public class Inicio extends javax.swing.JFrame {
             }
         });
     }
-
+/**
+     * @brief Declaracion de variables y componentes de la pantalla
+     */
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;

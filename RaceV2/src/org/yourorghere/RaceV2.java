@@ -27,7 +27,16 @@ import javax.swing.JOptionPane;
  * @author Eddy Sanchez
  * Clase Principal
  */
+/**
+ * 
+ * @brief Clase principal
+ */
 public class RaceV2 implements GLEventListener {
+    
+    /**
+ * 
+ * @brief declaracion de variables a utilizarce
+ */
     
     public static Cubo piso,cielo, partida,cielo1,cielo2,cielo3;
     Pista pista;
@@ -50,7 +59,10 @@ public class RaceV2 implements GLEventListener {
     
     public static void main(String[] args) {
         
-        
+        /**
+ * 
+ * @brief creacion del lienzo o panall de juego
+ */
         Frame frame = new Frame("RaceV2");
         GLCanvas canvas = new GLCanvas();
 
@@ -78,8 +90,15 @@ public class RaceV2 implements GLEventListener {
         //frame.setLocationRelativeTo(null);
         frame.setVisible(true);
         animator.start();
-        
+        /**
+ * 
+ * @brief se llama al canves para que sea visible
+ */
         canvas.addGLEventListener(new RaceV2());
+        /**
+ * 
+ * @brief Se activa el escuchador de eventos
+ */
         JoglKeyListener klistener=new JoglKeyListener(canvas);
         canvas.addKeyListener(klistener);
         
@@ -89,13 +108,19 @@ public class RaceV2 implements GLEventListener {
        
         GL gl = drawable.getGL();
         GLUT glut=new GLUT();
-
+/**
+ * 
+ * @brief Se activa las Luces
+ */
         gl.glEnable(GL.GL_DEPTH_TEST);//permite q se vean las caras de las cosas sin importar el orden
         gl.glEnable(GL.GL_LIGHTING);
         gl.glEnable(GL.GL_LIGHT0);
         gl.glEnable(GL.GL_TEXTURE_2D);
         
-
+/**
+ * 
+ * @brief Se declara las texturas a usarce
+ */
         try {
             textura=new Texturas("Fondo.jpg","text1.jpg","text2.jpg","text3.jpg","text4.jpg","text5.jpg","text6.jpg");
             
@@ -124,6 +149,10 @@ public class RaceV2 implements GLEventListener {
             Logger.getLogger(RaceV2.class.getName()).log(Level.SEVERE, null, ex);
         }
         
+        /**
+ * 
+ * @brief Declaracion de guia para los rivales automaticos
+ */
         caminox= new Vector(16);    
         caminox.add(33f);
         caminox.add(33f);
@@ -199,7 +228,10 @@ public class RaceV2 implements GLEventListener {
         caminox2.add(25f);          caminoz2.add(-28f);
         caminox2.add(35f);          caminoz2.add(-22f);
         caminox2.add(35f);          caminoz2.add(0f);
-        
+        /**
+ * 
+ * @brief se inicializa todos los componentes del juego: objetos, autos, etc
+ */
         
         try {
             Enemigo= new Auto(33, 0,-12, 1, 1,1, 0.11f,caminox,caminoz, gl,1,0,0,4,1);
@@ -278,6 +310,10 @@ public class RaceV2 implements GLEventListener {
     
      
     public void display(GLAutoDrawable drawable) {
+        /**
+ * 
+ * @brief Se llama a los objetos creados e inicializados para que se muestren en las escenas
+ */
         if(velocidad){
             car.Avanzar(0);
             for(Poste e:posteE)

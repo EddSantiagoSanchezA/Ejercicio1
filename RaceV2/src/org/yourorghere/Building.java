@@ -13,7 +13,22 @@ import javax.media.opengl.GL;
 /**
  *
  * @author Eddy Sanchez
- * Generador de Edificios
+ * 
+ */
+/*
+ *Clase Auto para generar un Edificios
+*/
+    /**
+     * 
+ * @brief Generador de Edificios
+ * @brief Posicion
+ * @param x Posicion x
+ * @param y Posicion y
+ * @param z Posicion z
+ * @brief Atributos
+ * @param w Altura
+ * @param h Ancho
+ * @param d Profundidad
  */
 public class Building {
     public float x;

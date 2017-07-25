@@ -9,11 +9,15 @@ import javax.swing.JOptionPane;
 //Manejo de primera persona del auto de carreras
 /**
 * @brief Constructor para AutoFperson
+* @brief Manejo de primera persona del auto de carreras
 * @param 
 * @return 
 */
 
 public class AutoFperson extends Auto{
+    /**
+    * @brief Constructor de la clase AutoFperson
+    */
     public float angulo;
     public AutoFperson(float x1, float y1,float z1, float w1, float h1,float d1, float speed1,Vector<Float> caminox1, Vector<Float> caminoz1,float angulo1, GL gl1,float r1,float g1,float b1,float texta1,float textb1) throws IOException{
         super (x1, y1,z1, w1, h1,d1,speed1, caminox1,caminoz1,gl1,r1,g1,b1, texta1, textb1);
@@ -43,6 +47,10 @@ public class AutoFperson extends Auto{
         z-=Math.sin(angulo)*speed;
         
     }
+    
+    /**
+    * @brief Metodo para dterminar la ictoria o derrota
+    */
     @Override
     public void Avanzar(float f){
         if(!ColisionP((x+(float)Math.cos(angulo)*speed), z+(float)Math.sin(angulo)*speed)){
@@ -75,6 +83,10 @@ public class AutoFperson extends Auto{
             System.exit(0);
         }
     }
+    
+    /**
+    * @brief Funciones de movimiento para la navegacion del auto
+    */
     @Override
     public void fb()
     {

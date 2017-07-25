@@ -5,11 +5,22 @@ import java.io.IOException;
 import java.util.ArrayList;
 import javax.media.opengl.GL;
 /**
- *
+ * 
  * @author Eddy Sanchez
- * Generador de Cercas
+ * 
  */
-
+/**
+ * 
+ * @brief Generador de Detalles, en este caso de cercas
+ * @brief Posicion
+ * @param x Posicion x
+ * @param y Posicion y
+ * @param z Posicion z
+ * @brief Atributos
+ * @param w Altura
+ * @param h Ancho
+ * @param d Profundidad
+ */
 public class Cerca {
     //atributos de la Cerca
     public float x;

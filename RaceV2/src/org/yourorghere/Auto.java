@@ -10,6 +10,18 @@ import javax.swing.JOptionPane;
 /*
  *Clase Auto para generar un automovil
 */
+    /**
+     * 
+ * @brief Clase Arbol
+ * @brief Posicion
+ * @param x Posicion x
+ * @param y Posicion y
+ * @param z Posicion z
+ * @brief Atributos
+ * @param w Altura
+ * @param h Ancho
+ * @param d Profundidad
+ */
 public class Auto {
     public float x;
     public float y;
@@ -33,7 +45,8 @@ public class Auto {
     public Cubo carroceria,capot, puntos;
     public GLUquadric disco,disco1,disco2,disco3,cilindro,cilindro2;
     
-    //Creacion del constructor
+    /*Creacion del constructor
+    */
     public Auto( float x1, float y1,float z1, float w1, float h1,float d1, float speed1,Vector caminox1,Vector caminoz1, GL gl1,float r1,float g1,float b1, float texta1,float textb1) throws IOException{
         x=x1;
         y=y1;

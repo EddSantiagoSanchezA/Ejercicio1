@@ -7,9 +7,22 @@ import javax.media.opengl.glu.GLU;
 import javax.media.opengl.glu.GLUquadric;
 import org.yourorghere.Material;
 //clase Arbol
-
+/**
+ * @brief Clase Arbol
+ */
 public class Arbol {
-    //atributos
+    /**
+     * 
+ * @brief Clase Arbol
+ * @brief Posicion
+ * @param x Posicion x
+ * @param y Posicion y
+ * @param z Posicion z
+ * @brief Atributos
+ * @param w Altura
+ * @param h Ancho
+ * @param d Profundidad
+ */
     public float x;
     public float y;
     public float z;
@@ -39,6 +52,13 @@ public class Arbol {
         material2=new Material(0.5f,0.5f,0.5f,0.27f,0.51f,0.71f,0.1f,0.1f,1,1,gl);
 //        
     }
+    
+    /**
+* @brief Metodo para Construir el objeto
+* @brief Con las transformaciones y su respectiva matriz
+* @param 
+* @return 
+*/
     public void DrawArbol(){
         //aplicacion de Transormaciones de OpenGL
         gl.glPushMatrix();

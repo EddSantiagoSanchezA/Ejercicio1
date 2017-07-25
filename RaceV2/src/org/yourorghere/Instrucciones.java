@@ -12,7 +12,8 @@ package org.yourorghere;
 public class Instrucciones extends javax.swing.JFrame {
 
     /**
-     * Creates new form Instrcciones
+     * 
+     * @brief Creates Instrcciones
      */
     public Instrucciones() {
         initComponents();
@@ -139,7 +140,10 @@ public class Instrucciones extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+/**
+     * 
+     * @brief Navegacion de pantallas
+     */
     private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
         // TODO add your handling code here:
        Inicio inicio = new Inicio();

@@ -10,6 +10,18 @@ import javax.media.opengl.glu.GLUquadric;
  * @author Eddy Sanchez
  * Generador de Detalles
  */
+/**
+     * 
+ * @brief Generador de Postes
+ * @brief Posicion
+ * @param x Posicion x
+ * @param y Posicion y
+ * @param z Posicion z
+ * @brief Atributos
+ * @param w Altura
+ * @param h Ancho
+ * @param d Profundidad
+ */
 public class Poste {
     //atributos
     public float x;
