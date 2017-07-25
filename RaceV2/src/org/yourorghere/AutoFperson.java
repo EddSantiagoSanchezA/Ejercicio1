@@ -7,6 +7,11 @@ import javax.media.opengl.GL;
 import javax.swing.JOptionPane;
 
 //Manejo de primera persona del auto de carreras
+/**
+* @brief Constructor para AutoFperson
+* @param 
+* @return 
+*/
 
 public class AutoFperson extends Auto{
     public float angulo;
@@ -14,8 +19,9 @@ public class AutoFperson extends Auto{
         super (x1, y1,z1, w1, h1,d1,speed1, caminox1,caminoz1,gl1,r1,g1,b1, texta1, textb1);
         angulo=angulo1;
     }
-    //Funciones de movimiento para la navegacion del auto
-    
+    /**
+    * @brief Funciones de movimiento para la navegacion del auto
+    */
     @Override
     public void fdelan(){
         angulo+=0.05f;
@@ -72,16 +78,8 @@ public class AutoFperson extends Auto{
     @Override
     public void fb()
     {
-//        speed=speed+0.005f;
-//        if(!Colision((x+(float)Math.cos(angulo)*speed), z+(float)Math.sin(angulo)*speed)){
-//            
-            x+=Math.cos(angulo)*speed;
-            z+=Math.sin(angulo)*speed;
-//        }else
-//        {
-//            JOptionPane.showMessageDialog(null, "Has Chocado¡¡¡¡¡¡ Game Over");
-//            System.exit(0);
-//        }
+        x+=Math.cos(angulo)*speed;
+        z+=Math.sin(angulo)*speed;
     }
     public void MoveLeft()
     {

@@ -196,7 +196,6 @@ public class Cubo {
     {
         return y;
     }
-    
     public float  Getz()
     {
         return z;

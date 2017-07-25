@@ -8,7 +8,7 @@ import javax.media.opengl.glu.GLU;
 import javax.media.opengl.glu.GLUquadric;
 import javax.swing.JOptionPane;
 /*
-  *Clase Auto para generar un automovil
+ *Clase Auto para generar un automovil
 */
 public class Auto {
     public float x;
@@ -222,6 +222,7 @@ public class Auto {
         
         
     }
+    
     public void Avanzar(float f){
         z+=f;
     }
@@ -261,9 +262,9 @@ public class Auto {
         
      if(indice!=16){
          if(x<caminox.elementAt(indice)){
-            x=x+speed*2;
+            x=x+speed;
         }else{
-            x=x-speed*2;
+            x=x-speed;
         }
         
         if(z<caminoz.elementAt(indice)){

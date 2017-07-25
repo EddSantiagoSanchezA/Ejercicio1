@@ -72,12 +72,9 @@ public class Personaje {
         gl.glVertex3f(x+(w/7),y-(h),z);
         gl.glVertex3f(x+(w/7),y-(h/7),z);
 
-        gl.glEnd();
-        
-        
-        
-        
-        //Brazos
+        gl.glEnd();     
+              
+         //Brazos
         
         gl.glBegin(GL.GL_QUADS);
         gl.glColor3f(r,g, b);
