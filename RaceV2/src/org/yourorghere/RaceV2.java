@@ -243,7 +243,7 @@ public class RaceV2 implements GLEventListener {
             cielo=new Cubo(0,10f,-43,90f,30f,0.25f,0,gl,0,0.25f,0.60f,1f,1f);
             cielo1=new Cubo(0,10f,+43,90f,30f,0.25f,0,gl,0,0.25f,0.60f,1f,1f);
             cielo2=new Cubo(45,10f,0,0.25f,30f,90,0,gl,0,0.25f,0.60f,1f,1f);
-            cielo3=new Cubo(-45,10f,0,0.25f,30f,90,0,gl,0,0.25f,0.60f,1f,1f);
+            cielo3=new Cubo(-44,10f,0,0.25f,30f,90,0,gl,0,0.25f,0.60f,1f,1f);
         } catch (IOException ex) {
             Logger.getLogger(RaceV2.class.getName()).log(Level.SEVERE, null, ex);
         }
